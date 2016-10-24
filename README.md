@@ -6,6 +6,15 @@ This is an old personal project I wanted to bring back. I originally wrote it in
 
 The current version is almost equal to the original one, but I refactored it partially for better programming practices and using pure C (old version used a weird mixture of C and C++ using STL queues, this one includes a q'n'd pure-C implementation of queue).
 
+# How to compile
+
+As usual.
+
+`make clean`
+`make all`
+ 
+Run with ./snake. Ensure to have permissions.
+
 # iqueue
 
 iqueue is a pure-C implementation of a dynamically-alloated queue data structure. It works as follows:
@@ -16,11 +25,11 @@ iqueue is a pure-C implementation of a dynamically-alloated queue data structure
 
 To make only iqueue, use the provided Makefile, or use the following command:
 
- gcc -c iqueue.c -o iqueue.o
+`gcc -c iqueue.c -o iqueue.o`
  
 And link it with your program.
 
- gcc myprogram.c iqueue.o -o myprogram
+`gcc myprogram.c iqueue.o -o myprogram`
  
 # cutils
 
