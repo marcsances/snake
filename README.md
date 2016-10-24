@@ -10,8 +10,8 @@ The current version is almost equal to the original one, but I refactored it par
 
 As usual.
 
- make clean
- make all
+`make clean`
+`make all`
  
 Run with ./snake. Ensure to have permissions.
 
@@ -25,11 +25,11 @@ iqueue is a pure-C implementation of a dynamically-alloated queue data structure
 
 To make only iqueue, use the provided Makefile, or use the following command:
 
- gcc -c iqueue.c -o iqueue.o
+`gcc -c iqueue.c -o iqueue.o`
  
 And link it with your program.
 
- gcc myprogram.c iqueue.o -o myprogram
+`gcc myprogram.c iqueue.o -o myprogram`
  
 # cutils
 
